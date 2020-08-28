@@ -1,0 +1,120 @@
+.card {
+  padding: 25px 30px;
+  background: #fff;
+
+  &__image {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  &__link {
+    display: block;
+    width: 130px;
+    padding: 9px 0;
+    text-align: center;
+    color: #ffffff;
+    background: var(--accent-color);
+    border-radius: 30px;
+    margin: 0 auto;
+    letter-spacing: 5%;
+    font-size: 1.4em;
+  }
+
+  &__subtitle {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 2.1em;
+    margin-bottom: 20px;
+  }
+}
+
+.grid-item {}
+
+.special {
+  padding-top: 80px;
+  padding-bottom: 133px;
+
+  &__card {
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  &__card-lg {
+    background: var(--accent-color);
+    color: #fff;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 40px;
+    padding-right: 45px;
+
+    h3 {
+      font-size: 1.8em;
+      margin-bottom: 25px;
+
+    }
+
+    p {
+      font-size: 1.4em;
+      line-height: 140%;
+      margin-bottom: 25px;
+    }
+
+    a {
+      display: block;
+      width: 170px;
+      padding: 9px 0;
+      font-size: 1.4em;
+      border: 2px solid #fff;
+      text-align: center;
+      border-radius: 30px;
+    }
+
+    input {
+      border-radius: 30px;
+      border: none;
+      font-size: 1.4em;
+      padding: 9px 25px;
+      width: 225px;
+
+      &:-moz-placeholder {
+        color: var(--gray-color);
+      }
+    }
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0 30px;
+  }
+
+  &__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 1/3;
+    grid-row: 4/5;
+  }
+
+  &__map {
+    grid-column: 3/5;
+    grid-row: 4/5;
+  }
+
+  &__title {
+    font-size: 2.4em;
+    font-weight: 700;
+    margin-bottom: 38px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+
+  &__img {
+    grid-column: 4/5;
+    grid-row: 1/2;
+  }
+}

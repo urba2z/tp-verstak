@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+@@include('./include/_head.html', {
+title: 'Ошибка 404',
+filename: 'style.min.css'
+})
+
+<body>
+  @@include('./components/_header.html')
+  <main>
+    <h1>Page not found</h1>
+  </main>
+  @@include('./components/_footer.html')
+  @@include('./include/_js.html', {
+  filename: 'error.js'
+  })
+</body>
+
+</html>

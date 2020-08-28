@@ -1,0 +1,85 @@
+.header {
+  &__btn {
+    background: transparent;
+    color: #000000;
+    border: 2px solid var(--accent-color);
+    width: 160px;
+    height: 40px;
+    font-size: 1.4em;
+    transition: background .3s ease, color .2s ease-in;
+
+    &:hover {
+      color: #fff;
+      background: var(--accent-color);
+    }
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid var(--gray-color);
+  }
+
+  &__wrapper {
+    background: #fff;
+  }
+}
+
+.logo {
+  color: var(--accent-color);
+  display: flex;
+  align-items: center;
+
+  &__icon {}
+
+  &__text {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 3.6em;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+  }
+}
+
+.navbar {
+  &__link {
+    font-size: 1.4em;
+    line-height: 1.6em;
+  }
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-top {
+  color: var(--main-text-color);
+  padding: 16px 0;
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}
+
+.navbar-bottom {
+  padding: 30px 0;
+  color: #000000;
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+}
+
+.phone {
+  margin-right: 40px;
+  margin-left: auto;
+  font-size: 1.6em;
+}

@@ -1,0 +1,33 @@
+.hero {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 192px;
+  padding-bottom: 193px;
+
+  &__btn {
+    width: 170px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    background: transparent;
+    letter-spacing: 0.05em;
+    font-size: 1.4em;
+  }
+
+  &__subtitle {
+    font-size: 1.4em;
+    line-height: 143%;
+    max-width: 308px;
+    margin-bottom: 50px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 4.8em;
+    line-height: 56px;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+}
